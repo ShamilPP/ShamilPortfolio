@@ -147,6 +147,15 @@ nav ul li a:hover::after {
 }
 
 /* Hero Section */
+
+.home-content {
+  display: flex;
+  color: yellow;
+  /* align-items: center; */
+  justify-content: space-between;
+
+}
+
 .hero {
   height: 100vh;
   display: flex;
@@ -222,11 +231,12 @@ nav ul li a:hover::after {
 }
 
 .hero-image {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  max-width: 600px;
+  /* position: absolute; */
+  /* right: 0;
+  bottom: 0; */
+  /* width: 20%;
+  height: auto; */
+  max-width: 300px;
   animation: float 6s ease-in-out infinite;
 }
 
@@ -558,6 +568,14 @@ nav ul li a:hover::after {
   transform: scale(2.15);
 }
 
+.project-card__image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
 .project-card__box {
   display: flex;
   flex-direction: column;
@@ -607,15 +625,19 @@ nav ul li a:hover::after {
 }
 
 .project-card__links a {
-  color: var(--tertiary-color);
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  text-decoration: none;
-  transition: color 0.3s;
+  background-color: var(--tertiary-color);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  display: inline-block;
 }
 
 .project-card__links a:hover {
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: #fff;
 }
 
 .project-card__go-corner {
