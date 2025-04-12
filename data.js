@@ -13,9 +13,11 @@ const projectsData = {
             "Modular and scalable codebase"
         ],
         technologies: ["Flutter", "Firebase", "Provider", "Razorpay", "FCM", "MVVM Architecture"],
-        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
+        logo: "assets/projects/flukefy/logo.png",
+        logoBackgroundColor: "black",
         images: [
-            "assets/projects/flukefy/image1.jpg",
+            "assets/projects/flukefy/logo.png",
+            "assets/projects/flukefy/image1.png",
             "assets/projects/flukefy/image2.jpg",
             "assets/projects/flukefy/image3.jpg",
             "assets/projects/flukefy/image4.jpg",
