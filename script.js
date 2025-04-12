@@ -111,3 +111,28 @@
 // }
 
 
+// Generate project cards dynamically
+const projectGrid = document.getElementById("projectsGrid");
+
+Object.values(projectsData).forEach(project => {
+    const card = document.createElement("div");
+    card.className = "project-card";
+    card.innerHTML = `
+        <div class="project-card__box">
+            <img src="${project.images[0] || 'assets/default.jpg'}" alt="${project.title}" class="project-card__image" />
+            <h3 class="project-card__title">${project.title}</h3>
+            <p class="project-card__brief">${project.description}</p>
+            <ul class="project-card__tags">
+                ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
+            </ul>
+            <ul class="project-card__links">
+                ${project.github ? `<li><a href="${project.github}" target="_blank">GitHub</a></li>` : ''}
+                ${project.liveLink ? `<li><a href="${project.liveLink}" target="_blank">Live</a></li>` : ''}
+            </ul>
+        </div>
+        <div class="project-card__go-corner">
+            <div class="project-card__go-arrow">→</div>
+        </div>
+    `;
+    projectGrid.appendChild(card);
+});
