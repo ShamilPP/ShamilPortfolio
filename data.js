@@ -1,18 +1,19 @@
 const projectsData = {
     flukefy: {
         title: "Flukefy – E-Commerce App",
-        description: "A complete e-commerce solution with Firebase backend, authentication, and admin panel. Built with MVVM architecture for clean, scalable code.",
-        fullDescription: "Flukefy is a comprehensive e-commerce application developed using Flutter, featuring a robust Firebase backend for reliable data management and real-time updates. The app includes user authentication, product management, cart functionality, order processing, and payment gateway integration.",
+        description: "Full-featured e-commerce solution with Firebase backend, MVVM architecture, and admin panel for managing orders, users, and products.",
+        fullDescription: "Flukefy is a comprehensive e-commerce app developed using Flutter with a Firebase backend. It offers real-time data handling, Firebase Authentication, and role-based screen management. A separate admin app is included for handling products, orders, and user activities efficiently.",
         features: [
-            "User authentication with email and social login options",
-            "Product categorization and filtering",
-            "Cart management and wishlist functionality",
-            "Order tracking and history",
-            "Admin panel for product and order management",
-            "Payment gateway integration with Razorpay",
-            "Real-time notifications and updates"
+            "MVVM architecture with Provider state management",
+            "Firebase Authentication for secure login and registration",
+            "Admin panel for managing users, orders, and products",
+            "Real-time product and order updates",
+            "Secure payments with Razorpay integration",
+            "In-app notifications using FCM",
+            "Modular and scalable codebase"
         ],
-        technologies: ["Flutter", "Firebase", "MVVM Architecture", "Provider State Management", "Razorpay"],
+        technologies: ["Flutter", "Firebase", "Provider", "Razorpay", "FCM", "MVVM Architecture"],
+        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
         images: [
             "assets/projects/flukefy/image1.jpg",
             "assets/projects/flukefy/image2.jpg",
@@ -20,23 +21,23 @@ const projectsData = {
             "assets/projects/flukefy/image4.jpg",
             "assets/projects/flukefy/image5.jpg"
         ],
-        github: "https://github.com/shamilpp/flukefy",
+        github: "https://github.com/shamilpp/Flukefy",
         liveLink: ""
     },
     oneiro: {
         title: "Oneiro – E-Commerce",
-        description: "E-Commerce platform with REST API integration and admin dashboard to manage orders, products, and users efficiently.",
-        fullDescription: "Oneiro is a feature-rich e-commerce platform that connects to a custom backend via REST APIs. It provides both customer-facing mobile applications and an admin dashboard for comprehensive store management.",
+        description: "Cross-platform e-commerce system with REST API backend and admin dashboard for managing store operations.",
+        fullDescription: "Oneiro is a robust e-commerce solution featuring customer and admin modules. Built using Flutter and integrated with REST APIs, it allows smooth communication between frontend and backend for managing products, orders, and users efficiently.",
         features: [
-            "Clean architecture with separation of concerns",
-            "REST API integration with error handling",
-            "Administrative dashboard for inventory management",
-            "Order processing and tracking system",
-            "Customer account management",
-            "Analytics and reporting features",
-            "Multi-language support"
+            "Custom REST API integration with error handling",
+            "Admin dashboard for product, order, and user control",
+            "MVVM architecture for maintainable code",
+            "Customer-friendly UI with product browsing and checkout",
+            "Phone number OTP authentication",
+            "Multi-language support and responsiveness"
         ],
-        technologies: ["Flutter", "REST API", "BLoC State Management", "Admin Panel", "SQLite"],
+        technologies: ["Flutter", "REST API", "MVVM", "BLoC", "SQLite"],
+        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
         images: [
             "assets/projects/oneiro/image1.jpg",
             "assets/projects/oneiro/image2.jpg",
@@ -44,46 +45,46 @@ const projectsData = {
             "assets/projects/oneiro/image4.jpg",
             "assets/projects/oneiro/image5.jpg"
         ],
-        github: "https://github.com/shamilpp/oneiro",
+        github: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
         liveLink: ""
     },
     systemstate: {
         title: "SystemState – Flutter Plugin",
-        description: "A Flutter plugin providing real-time access to essential device states and controls like battery level, network status, and volume controls.",
-        fullDescription: "SystemState is a Flutter plugin I developed and published to pub.dev that provides developers with easy access to various device states and system controls. The plugin bridges native Android and iOS functionality to Flutter applications.",
+        description: "Flutter plugin to access real-time system states like battery, Wi-Fi, volume, and more.",
+        fullDescription: "SystemState is a Flutter plugin published on pub.dev, offering access to native Android and iOS system states. It supports real-time updates and event listening for battery status, network, audio levels, and more.",
         features: [
-            "Battery level and charging status monitoring",
-            "Network connection type and status detection",
-            "Volume level control and monitoring",
-            "Screen brightness adjustment",
-            "Device orientation detection",
-            "Memory usage statistics",
-            "Power saving mode detection"
+            "Battery level, charging, and temperature status",
+            "Wi-Fi and mobile data monitoring",
+            "Volume adjustment and mute detection",
+            "Method Channels for native Android (Kotlin) & iOS (Swift)",
+            "Real-time event listeners",
+            "System state synchronization and updates"
         ],
-        technologies: ["Flutter", "Native Android (Kotlin)", "Native iOS (Swift)", "Method Channels", "Pub.dev Publishing"],
+        technologies: ["Flutter", "Kotlin", "Swift", "Method Channels", "Pub.dev"],
+        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
         images: [
             "assets/projects/systemstate/image1.jpg",
             "assets/projects/systemstate/image2.jpg",
             "assets/projects/systemstate/image3.jpg",
             "assets/projects/systemstate/image4.jpg"
         ],
-        github: "https://github.com/shamilpp/systemstate",
-        liveLink: "https://pub.dev/packages/systemstate"
+        github: "https://github.com/ShamilPP/systemstate",
+        liveLink: "https://pub.dev/packages/system_state"
     },
     baithulmaal: {
         title: "Baithulmaal – Finance App",
-        description: "Financial tracking app with Firebase backend, MVVM architecture, and integrated admin panel with role-based access.",
-        fullDescription: "Baithulmaal is a financial tracking and management application designed for community organizations to manage funds, donations, and expenses. It features role-based access control with different permissions for administrators and members.",
+        description: "Financial management tool for donations, expenses, and budgeting with Firebase backend and integrated admin control.",
+        fullDescription: "Baithulmaal is a community-focused financial management app built using Flutter and Firebase. It provides tools for fund tracking, donation recording, budgeting, and admin-managed workflows, all following the MVVM architecture.",
         features: [
+            "Role-based access for admins and members",
             "Transaction recording and categorization",
-            "Financial reporting and analytics",
-            "Role-based access control",
-            "Expense approval workflow",
-            "Budget planning and tracking",
-            "Donation management",
-            "Financial goal setting"
+            "Donation and fund management",
+            "PDF generation for reports",
+            "Integrated admin panel with authentication",
+            "Firebase Cloud Functions for automation"
         ],
-        technologies: ["Flutter", "Firebase", "MVVM Architecture", "Cloud Functions", "PDF Generation"],
+        technologies: ["Flutter", "Firebase", "MVVM", "Cloud Functions", "PDF Generation"],
+        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
         images: [
             "assets/projects/baithulmaal/image1.jpg",
             "assets/projects/baithulmaal/image2.jpg",
@@ -92,23 +93,23 @@ const projectsData = {
             "assets/projects/baithulmaal/image5.jpg",
             "assets/projects/baithulmaal/image6.jpg"
         ],
-        github: "https://github.com/shamilpp/baithulmaal",
+        github: "https://github.com/shamilpp/Baitulmaal",
         liveLink: ""
     },
     ookchat: {
         title: "Ook Chat – AI Chat App",
-        description: "AI-powered chatting app using Gemini API with features like speech-to-text, text-to-speech, and toxicity detection.",
-        fullDescription: "Ook Chat is an AI-powered conversation application that leverages Google's Gemini API to provide intelligent responses. The app includes accessibility features like speech-to-text and text-to-speech, along with safety measures such as toxicity detection.",
+        description: "AI chatbot powered by Gemini API with voice interaction and content filtering features.",
+        fullDescription: "Ook Chat is an AI-powered chat app built with Gemini API integration. It supports natural conversation using speech-to-text and text-to-speech. Safety features like toxicity detection are also built-in for a cleaner chat experience.",
         features: [
-            "AI-powered conversations using Gemini API",
-            "Speech-to-text for voice input",
-            "Text-to-speech for audio responses",
-            "Toxicity detection and content filtering",
-            "Conversation history and management",
-            "Custom conversation contexts",
-            "Offline mode with cached responses"
+            "Smart responses via Gemini API function calling",
+            "Speech-to-text and text-to-speech support",
+            "Real-time context-aware conversation memory",
+            "Inappropriate content filtering using AI",
+            "Serverless functions for optimized backend",
+            "Offline mode with local caching"
         ],
-        technologies: ["Flutter", "Gemini API", "TensorFlow Lite", "Local Storage", "Speech Recognition"],
+        technologies: ["Flutter", "Gemini API", "TTS & STT", "TensorFlow Lite", "Serverless Backend"],
+        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
         images: [
             "assets/projects/ookchat/image1.jpg",
             "assets/projects/ookchat/image2.jpg",
@@ -120,18 +121,18 @@ const projectsData = {
     },
     esm: {
         title: "ESM – SaaS Platform",
-        description: "SaaS platform supporting role-based access for freelancers and businesses with custom permissions.",
-        fullDescription: "ESM (Enterprise Service Management) is a SaaS platform designed to streamline workflow management for freelancers and businesses. It features role-based access control, customizable dashboards, and comprehensive project management tools.",
+        description: "SaaS-based service management app with role-based access and offline support.",
+        fullDescription: "ESM (Enterprise Service Manager) is a SaaS platform designed to help freelancers and organizations manage operations with customizable roles and workflows. It includes offline functionality and real-time analytics for performance monitoring.",
         features: [
-            "Role-based access control system",
-            "Project management and tracking",
-            "Time tracking and invoicing",
-            "Client management and communication",
-            "Custom workflow creation",
-            "Resource allocation and management",
-            "Analytics and performance reporting"
+            "Multi-role system (Admin, Salesman, Customer)",
+            "Offline mode support for low-network zones",
+            "Service booking and provider tracking",
+            "Integrated in-app wallet and Stripe payments",
+            "Admin-side analytics and reporting",
+            "Real-time push notifications using FCM"
         ],
-        technologies: ["Flutter", "Firebase", "REST API", "Provider State Management", "Cloud Functions"],
+        technologies: ["Flutter", "Firebase", "GetX", "REST API", "Stripe", "FCM"],
+        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
         images: [
             "assets/projects/esm/image1.jpg",
             "assets/projects/esm/image2.jpg",
@@ -139,7 +140,7 @@ const projectsData = {
             "assets/projects/esm/image4.jpg",
             "assets/projects/esm/image5.jpg"
         ],
-        github: "https://github.com/shamilpp/esm",
+        github: "",
         liveLink: ""
     }
 };

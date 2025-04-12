@@ -25,7 +25,7 @@ function loadProjectDetails() {
         galleryHTML += '</div>';
         galleryHTML += '<div class="gallery-thumbnails">';
 
-        project.images.forEach((image, index) => {
+       [project.logo ,...project.images].forEach((image, index) => {
             galleryHTML += `<div class="gallery-thumbnail ${index === 0 ? 'active' : ''}" 
                               data-image="${image}" 
                               onclick="changeGalleryImage('${image}', this)">

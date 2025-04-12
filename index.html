@@ -279,7 +279,7 @@
             card.className = "project-card";
             card.innerHTML = `
         <div class="project-card__box">
-            <img src="${project.images[0] || 'assets/default.jpg'}" alt="${project.title}" class="project-card__image" />
+            <img src="${project.logo || 'assets/default.jpg'}" alt="${project.title}" class="project-card__image" />
             <h3 class="project-card__title">${project.title}</h3>
             <p class="project-card__brief">${project.description}</p>
             <ul class="project-card__tags">
