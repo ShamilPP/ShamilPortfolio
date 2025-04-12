@@ -40,9 +40,6 @@ const projectsData = {
         logo: "assets/projects/systemstate/logo.png",
         images: [
             "assets/projects/systemstate/logo.png",
-            "assets/projects/systemstate/image2.jpg",
-            "assets/projects/systemstate/image3.jpg",
-            "assets/projects/systemstate/image4.jpg"
         ],
         github: "https://github.com/ShamilPP/systemstate",
         liveLink: "https://pub.dev/packages/system_state"
@@ -136,11 +133,15 @@ const projectsData = {
             "In-app chat and notification system"
         ],
         technologies: ["Flutter", "Stripe", "Firebase", "Bloc", "REST API", "FCM"],
-        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
+        logo: "assets/projects/kleanit/logo.png",
         images: [
+            "assets/projects/kleanit/logo.png",
             "assets/projects/kleanit/image1.jpg",
             "assets/projects/kleanit/image2.jpg",
-            "assets/projects/kleanit/image3.jpg"
+            "assets/projects/kleanit/image3.jpg",
+            "assets/projects/kleanit/image4.jpg",
+            "assets/projects/kleanit/image5.jpg",
+            "assets/projects/kleanit/image6.jpg",
         ],
         github: "",
         liveLink: ""
@@ -157,11 +158,18 @@ const projectsData = {
             "Role-based access control"
         ],
         technologies: ["Flutter", "REST API", "Bloc", "SQLite", "MVVM"],
-        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
+        logo: "assets/projects/inventory/logo.png",
         images: [
-            "assets/projects/inventoryms/image1.jpg",
-            "assets/projects/inventoryms/image2.jpg",
-            "assets/projects/inventoryms/image3.jpg"
+            "assets/projects/inventory/logo.png",
+            "assets/projects/inventory/image1.jpg",
+            "assets/projects/inventory/image2.jpg",
+            "assets/projects/inventory/image3.jpg",
+            "assets/projects/inventory/image4.png",
+            "assets/projects/inventory/image5.png",
+            "assets/projects/inventory/image6.png",
+            "assets/projects/inventory/image7.png",
+            "assets/projects/inventory/image8.png",
+            "assets/projects/inventory/image9.png",
         ],
         github: "",
         liveLink: ""
@@ -180,8 +188,9 @@ const projectsData = {
             "Real-time push notifications using FCM"
         ],
         technologies: ["Flutter", "Firebase", "GetX", "REST API", "Stripe", "FCM"],
-        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
+        logo: "assets/projects/esm/logo.png",
         images: [
+            "assets/projects/esm/logo.png",
             "assets/projects/esm/image1.jpg",
             "assets/projects/esm/image2.jpg",
             "assets/projects/esm/image3.jpg",
@@ -202,11 +211,15 @@ const projectsData = {
             "Razorpay payment gateway integration"
         ],
         technologies: ["Flutter", "REST API", "Razorpay", "Clean architeture"],
-        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
+        logo: "assets/projects/metado/logo.png",
         images: [
             "assets/projects/metado/image1.jpg",
             "assets/projects/metado/image2.jpg",
-            "assets/projects/metado/image3.jpg"
+            "assets/projects/metado/image3.jpg",
+            "assets/projects/metado/image4.jpg",
+            "assets/projects/metado/image5.jpg",
+            "assets/projects/metado/image6.jpg",
+            "assets/projects/metado/image7.jpg",
         ],
         github: "",
         liveLink: ""
