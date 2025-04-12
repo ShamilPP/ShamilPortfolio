@@ -141,9 +141,9 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">Jan 2025 - Mar 2025</div>
+                    <div class="timeline-date">Feb 2024 - Apr 2025</div>
                     <div class="timeline-content">
-                        <h3>Spydo Technologies</h3>
+                        <h3>Mithra Tech Solutions</h3>
                         <h4>Flutter Developer</h4>
                         <p>Built and maintained Flutter applications using MVVM architecture with BLoC and Provider.
                             Successfully deployed multiple applications to the Google Play Store, ensuring high
@@ -152,7 +152,7 @@
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">Jun 2022 - Jan 2025</div>
+                    <div class="timeline-date">Jun 2022 - Jan 2024</div>
                     <div class="timeline-content">
                         <h3>Freelance Flutter Developer</h3>
                         <h4>Self-Employed</h4>
@@ -275,6 +275,7 @@
         const projectGrid = document.getElementById("projectsGrid");
 
         Object.values(projectsData).forEach(project => {
+            if(project.isNotShowHome) return;
             const card = document.createElement("div");
             card.className = "project-card";
             card.innerHTML = `
