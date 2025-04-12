@@ -88,13 +88,12 @@ const projectsData = {
             "Multi-language support and responsiveness"
         ],
         technologies: ["Flutter", "REST API", "MVVM", "BLoC", "SQLite"],
-        logo: "https://dummyimage.com/600x400/cccccc/ffffff&text=No+Image",
+        logo: "assets/projects/oneiro/logo.png",
         images: [
-            "assets/projects/oneiro/image1.jpg",
-            "assets/projects/oneiro/image2.jpg",
-            "assets/projects/oneiro/image3.jpg",
-            "assets/projects/oneiro/image4.jpg",
-            "assets/projects/oneiro/image5.jpg"
+            "assets/projects/oneiro/logo.png",
+            "assets/projects/oneiro/image1.png",
+            "assets/projects/oneiro/image2.png",
+            "assets/projects/oneiro/image3.png",
         ],
         github: "",
         liveLink: "https://play.google.com/store/apps/details?id=com.goodone.product_book&hl=onero"
