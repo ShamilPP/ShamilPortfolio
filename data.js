@@ -45,6 +45,33 @@ const projectsData = {
         liveLink: "https://pub.dev/packages/system_state"
     },
 
+    gymio: {
+        title: "Gymio – Gym Management App",
+        description: "Gym management app with multi-role access, QR-based attendance, and payment management system.",
+        fullDescription: "Gymio is a comprehensive gym management app built with Flutter. The backend uses Node.js, Express, and MongoDB, hosted on AWS. It features multi-role access (Admin, Gym Owners, Members), JWT authentication, CI/CD for backend, Fastlane for automated Play Store deployment, QR-based attendance, and payment management. Admins can create Gym Owners, and Gym Owners manage Members efficiently.",
+        features: [
+            "Built with Clean Architecture for scalability and maintainability",
+            "Secured with JWT Auth and multi-role access (Admin, Gym Owners, Members)",
+            "Implemented CI/CD pipelines for backend and Fastlane for Play Store uploads",
+            "Added QR-based attendance and payment management systems",
+            "Hierarchical structure: Admin creates Gym Owners, and Gym Owners manage Members"
+        ],
+        technologies: ["Flutter", "Node.js", "Express", "MongoDB", "AWS", "JWT", "Fastlane", "CI/CD"],
+        logo: "assets/projects/gymio/logo.png",
+        logoBackgroundColor: "white",
+        images: [
+            "assets/projects/gymio/logo.png",
+            "assets/projects/gymio/image1.png",
+            "assets/projects/gymio/image2.png",
+            "assets/projects/gymio/image3.png",
+            "assets/projects/gymio/image4.png",
+            "assets/projects/gymio/image5.png",
+            "assets/projects/gymio/image6.png",
+        ],
+        github: "",
+        liveLink: "https://play.google.com/store/apps/details?id=com.shamil.gymio"
+    },
+
     flukefy: {
         title: "Flukefy – E-Commerce App",
         description: "Full-featured e-commerce solution with Firebase backend, MVVM architecture, and admin panel for managing orders, users, and products.",
